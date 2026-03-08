@@ -9,10 +9,8 @@ export default function Navbar() {
   return (
     <div className="w-full h-16 px-4 bg-blue-400 text-white flex items-center justify-between">
 
-      {/* Logo */}
-      <img src={Logo} alt="" className="h-12 w-12 rounded-full" />
+      <img src={Logo} alt="" className="h-12 w-12 rounded-full"/>
 
-      {/* NAV LINKS */}
       <div className="hidden sm:flex h-15 w-200 justify-evenly items-center text-sm sm:text-base font-bold gap-6">
         <Link to="/" className="hover:translate-y-1 hover:text-sky-800">Home</Link>
         <Link to="/about" className="hover:translate-y-1 hover:text-sky-800">About</Link>
@@ -21,7 +19,6 @@ export default function Navbar() {
         <Link to="/contact" className="hover:translate-y-1 hover:text-sky-800">Contact</Link>
       </div>
 
-      {/* SOCIAL ICONS */}
       <div className="flex gap-3 sm:gap-4 items-center">
         <a href="https://www.instagram.com/prince_dhima_n?igsh=OGwzaGNhOXk5Y29l">
           <img src={Insta} alt="" className="h-8 sm:h-10 rounded-xl" />

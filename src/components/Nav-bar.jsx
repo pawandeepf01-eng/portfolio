@@ -15,7 +15,7 @@ export default function Navbar() {
         <Link to="/" className="hover:translate-y-1 hover:text-sky-800">Home</Link>
         <Link to="/about" className="hover:translate-y-1 hover:text-sky-800">About</Link>
         <Link to="/resume" className="hover:translate-y-1 hover:text-sky-800">Resume</Link>
-        <Link to="/service" className="hover:translate-y-1 hover:text-sky-800">Work</Link>
+        {/* <Link to="/service" className="hover:translate-y-1 hover:text-sky-800">Work</Link> */}
         <Link to="/contact" className="hover:translate-y-1 hover:text-sky-800">Contact</Link>
       </div>
 

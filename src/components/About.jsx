@@ -46,12 +46,12 @@ function About() {
             and improving my skills every day.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-10 mt-10 h-auto">
-            <button
+            {/* <button
               className="text-white p-4 border border-sky-700 rounded-2xl hover:bg-sky-500 hover:-translate-y-1 cursor-pointer font-bold"
               onClick={handlework}
             >
               Veiw My Work
-            </button>
+            </button> */}
             <button
               className="p-4 rounded-2xl hover:bg-sky-500 hover:-translate-y-1 cursor-pointer border border-sky-700 font-bold"
               onClick={handledownload}

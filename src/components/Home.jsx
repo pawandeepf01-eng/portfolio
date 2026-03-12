@@ -37,12 +37,7 @@ function Home() {
           improving my skills every day.
         </p>
         <div className="btn flex flex-col sm:flex-row gap-4 sm:gap-10 mt-6">
-          {/* <button
-            className="rounded-2xl p-4 cursor-pointer bg-sky-500 border-none font-bold hover:bg-sky-700 hover:-translate-y-1"
-            onClick={handleservice}
-          >
-            View my work
-          </button> */}
+         
           <button
             className="rounded-2xl p-4 cursor-pointer border border-sky-500 text-blue-500 font-bold hover:-translate-y-1"
             onClick={handletouch}

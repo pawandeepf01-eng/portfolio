@@ -10,7 +10,7 @@ export default function Navbar() {
     <div className="w-full h-16 px-4 bg-blue-400 text-white flex items-center justify-between">
       <img src={Logo} alt="" className="h-12 w-12 rounded-full" />
 
-      <div className="flex flex-wrap justify-center sm:justify-evenly items-center text-sm sm:text-base font-bold gap-4 sm:gap-6 w-full">
+      <div className="flex flex-wrap justify-center sm:justify-around items-center text-sm sm:text-base font-bold gap-4 sm:gap-6 w-full">
         <Link to="/" className="hover:translate-y-1 hover:text-sky-800">
           Home
         </Link>
